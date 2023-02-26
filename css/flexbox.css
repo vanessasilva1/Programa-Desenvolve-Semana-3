@@ -1,0 +1,5 @@
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center; /*alinhar elementos ao centro*/
+    justify-content: space-between; /*colocar espaço no meio*/
+}
