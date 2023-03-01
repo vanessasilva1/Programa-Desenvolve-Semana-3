@@ -3,3 +3,36 @@
     align-items: center; /*alinhar elementos ao centro*/
     justify-content: space-between; /*colocar espaço no meio*/
 }
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /*flex-direction: column; -- um embaixo do outro - vertical
+    flex-wrap: wrap;  /*quebra quando não couber no elemento pai*/
+    flex-flow: column wrap;
+    height: 260px; /*altura*/
+}
